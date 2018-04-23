@@ -1,0 +1,30 @@
+﻿<Window x:Class="PointColors.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/charts" Title="Window1" Height="361" Width="425">
+    <Grid>
+        <dxc:ChartControl Name="chartControl1">
+            <!--region #Palette-->
+            <dxc:ChartControl.Palette>
+                <dxc:CustomPalette>
+                    <dxc:CustomPalette.Colors>
+                        <Color>Blue</Color>
+                        <Color>Yellow</Color>
+                        <Color>Magenta</Color>
+                    </dxc:CustomPalette.Colors>
+                </dxc:CustomPalette>
+            </dxc:ChartControl.Palette>
+            <!--endregion #Palette-->
+            <dxc:ChartControl.Diagram>
+                <dxc:SimpleDiagram3D>
+                    <dxc:SimpleDiagram3D.Series>
+                        <dxc:PieSeries3D HoleRadiusPercent="0" DepthTransform="0.5">
+                            <dxc:PieSeries3D.Points>
+                                <dxc:SeriesPoint Argument="A" Value="3" />
+                                <dxc:SeriesPoint Argument="B" Value="2" />
+                                <dxc:SeriesPoint Argument="C" Value="1" />
+                            </dxc:PieSeries3D.Points>
+                        </dxc:PieSeries3D>
+                    </dxc:SimpleDiagram3D.Series>
+                </dxc:SimpleDiagram3D>
+            </dxc:ChartControl.Diagram>
+        </dxc:ChartControl>
+    </Grid>
+</Window>
