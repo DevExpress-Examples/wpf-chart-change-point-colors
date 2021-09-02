@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointColors", "PointColors.csproj", "{0E9A59BE-7D10-4BE3-94D0-BB577A61F5A2}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointColors", "PointColors.Net5.csproj", "{0E9A59BE-7D10-4BE3-94D0-BB577A61F5A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
