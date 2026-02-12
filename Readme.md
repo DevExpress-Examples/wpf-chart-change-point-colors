@@ -20,7 +20,7 @@ This example demonstrates how to change the series point colors with a custom pa
 * [Series and Series Point Colors](https://docs.devexpress.com/WPF/400440/controls-and-libraries/charts-suite/chart-control/series/series-and-series-point-colors)
 * [Series Point Colorizers](https://docs.devexpress.com/WPF/114016/controls-and-libraries/charts-suite/chart-control/provide-data/series-point-colorizers)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-chart-change-point-colors&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-chart-change-point-colors&~~~was_helpful=no)
 
